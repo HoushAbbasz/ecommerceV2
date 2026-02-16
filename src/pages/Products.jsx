@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const API_URL = 'http://car-part-kingdom-env.eba-3nmrxnty.us-east-1.elasticbeanstalk.com/api/products';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 function Products({ darkMode, onToggleDarkMode }) {
   // store products from backend
