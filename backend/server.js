@@ -7,7 +7,7 @@ dotenv.config();
 
 // create express app with port from .env file
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 // enable cross-origin resource sharing (CORS), allows different ports to communicate to one another 
 app.use(cors());
