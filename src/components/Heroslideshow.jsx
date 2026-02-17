@@ -11,22 +11,27 @@ import Parts from '../assets/images/slides/slide5.jpg';
 // array of objects that contain image and text
 const slides = [
   {
+    title: "tire slideshow image",
     image: Tires,
     text: "The highest quality tires!"
   },
   {
+    title: "jumper cables slideshow image",
     image: JumperCables,
     text: "The best Jumper Cables!"
   },
   {
+    title: "oil slideshow image",
     image: Oil,
     text: "The most premium Engine Oil!"
   },
   {
+    title: "battery slideshow image",
     image: Battery,
     text: "Long lasting battery life!"
   },
   {
+    title: "generic car parts slideshow image",
     image: Parts,
     text: "More products coming soon!"
   },
