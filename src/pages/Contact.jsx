@@ -101,6 +101,12 @@ function Contact({ darkMode, onToggleDarkMode }) {
         order: '',
         message: ''
       })
+
+      // clear success message after 10 seconds
+      setTimeout(() => {
+          setStatus({ message: '', type: '' })
+      }, 10000)
+
     } else {
       // send error message if invalid 
       setStatus({ message: errorMessage, type: 'error' })
