@@ -1,4 +1,4 @@
-
+// functional component for Promo cards on Home page, with props
 function PromoCard({ title, description, image, alt }) {
   return (
     <div className="promo-card">
