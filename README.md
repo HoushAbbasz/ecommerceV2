@@ -6,11 +6,11 @@ CarPart Kingdom is a full-stack eCommerce web application that sells automotive 
 
 ## Pages:
 
-Landing page: This page features a Hero slide show with images of the different types of products we sell, a call to action button that sends the user to the products page, and promotional cards. 
+Landing page: Features a hero slideshow highlighting the different categories of automotive products offered. Includes a clear call-to-action button that directs users to the Products page, along with promotional cards showcasing featured items and deals.
 
-Products page: This page features a dynamic product grid that pull information from an AWS RDS Database and displays them in an attractive manner. This page also features different sorting and searching options. 
+Products page: Displays a dynamic product grid populated with data pulled from an AWS RDS (MySQL) database. Products are presented in a clean and visually appealing layout, with built-in search, filtering, and sorting functionality to help users easily find specific items.
 
-Contact page: This page features a contact form that has form validation and displays appropriate error and success messages. 
+Contact page: Includes a contact form with client side validation to ensure proper input. The form provides clear error and success messages to enhance user feedback and usability.
 
 ## Tech Stack: 
 
