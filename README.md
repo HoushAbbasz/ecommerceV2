@@ -1,6 +1,6 @@
 # Carpart Kingdom 
 
-##Overview:
+## Overview:
 
 CarPart Kingdom is a full-stack eCommerce web application that sells automotive parts.
 
@@ -14,8 +14,8 @@ Contact page: This page features a contact form that has form validation and dis
 
 ## Tech Stack: 
 
-Frontend: React.js
-Backend: Node.js, Express.js
+Frontend: React.js 
+Backend: Node.js, Express.js 
 Database: AWS Relational Database Service  (MySQL) 
 Deployment: AWS Amplify (Frontend), AWS Elastic Beanstalk (Backend), AWS Relational Database Service (Database)
 
