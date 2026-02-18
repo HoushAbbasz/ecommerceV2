@@ -14,9 +14,12 @@ Contact page: This page features a contact form that has form validation and dis
 
 ## Tech Stack: 
 
-Frontend: React.js 
-Backend: Node.js, Express.js 
-Database: AWS Relational Database Service  (MySQL) 
+Frontend: React.js
+
+Backend: Node.js, Express.js
+
+Database: AWS Relational Database Service  (MySQL)
+
 Deployment: AWS Amplify (Frontend), AWS Elastic Beanstalk (Backend), AWS Relational Database Service (Database)
 
 ## Link to hosted site:
