@@ -1,16 +1,26 @@
-# React + Vite
+# Carpart Kingdom 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Overview:
 
-Currently, two official plugins are available:
+CarPart Kingdom is a full-stack eCommerce web application that sells automotive parts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pages:
 
-## React Compiler
+Landing page: This page features a Hero slide show with images of the different types of products we sell, a call to action button that sends the user to the products page, and promotional cards. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Products page: This page features a dynamic product grid that pull information from an AWS RDS Database and displays them in an attractive manner. This page also features different sorting and searching options. 
 
-## Expanding the ESLint configuration
+Contact page: This page features a contact form that has form validation and displays appropriate error and success messages. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack: 
+
+Frontend: React.js
+Backend: Node.js, Express.js
+Database: AWS Relational Database Service  (MySQL) 
+Deployment: AWS Amplify (Frontend), AWS Elastic Beanstalk (Backend), AWS Relational Database Service (Database)
+
+## Link to hosted site:
+
+https://main.d39w5njpfcspba.amplifyapp.com/
+
+
