@@ -4,7 +4,7 @@
 
 CarPart Kingdom is a full-stack eCommerce web application that sells automotive parts.
 
-## Pages:
+# Tble of Content:
 
 Landing page: Features a hero slideshow highlighting the different categories of automotive products offered. Includes a clear call-to-action button that directs users to the Products page, along with promotional cards showcasing featured items and deals.
 
